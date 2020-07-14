@@ -1,0 +1,126 @@
+.editHead {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Todo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.TodoItems {
+  margin: 10px 0px 10px 0px;
+  font-size: 30px;
+  border-radius: 20px;
+  border: springgreen solid 1px;
+  color: blue;
+  transition: 0.5s ease-out;
+}
+.TodoItems label {
+  margin: 10px 10px 10px 10px;
+}
+.TodoItems:hover {
+  background-color: thistle;
+  transition: 0.5s ease-in;
+}
+
+.contact {
+  margin: 30px 40px 40px 40px;
+  font-size: 50px;
+  color: blue;
+  transition: 0.2s ease-out;
+}
+.contact:hover {
+  color: red;
+  transition: 0.2s ease-in;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0 auto;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+.contactItem {
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  border-radius: 10px;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+  transition: 0.5s ease-out;
+}
+
+.contactItem:hover {
+  transition: 0.5s ease-in;
+  border: 1px rgb(45, 228, 45) solid;
+  transform: scale(1.2);
+  background-color: rgb(221, 221, 66);
+}
+
+.mainfood {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px black solid;
+  transition: 0.5s ease-out;
+  border-radius: 40px;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.mainfood:hover {
+  transition: 0.5s ease-in;
+  border: 3px rgb(177, 92, 106) solid;
+}
+
+.xxx {
+  display: flex;
+  border: 1px white solid;
+  transition: 0.3s ease-out;
+  border-radius: 20px;
+  margin: 20px 0px 20px 0px;
+  width: 90%;
+  height: 30;
+  align-items: center;
+  justify-content: center;
+}
+
+.xxx:hover {
+  border: 1px blue solid;
+  border-radius: 20px;
+  transition: 0.3s ease-in;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: red;
+}
+button {
+  border-radius: 35px;
+}
+
+.logDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logDetails div{
+  font-size: 30px;
+}
+
+.flexMeme{
+  display: flex;
+  justify-content: center;
+}
